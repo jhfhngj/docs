@@ -1,6 +1,6 @@
 ---
 slug: /blocks
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 
 # TurboWarp Blocks
@@ -26,15 +26,14 @@ Every block beyond this warning is **incompatible** with Scratch. Projects that 
 ![last key pressed](./assets/last-key-pressed.svg)
 
 It tells you the last key that was pressed. It's intended to be used something like this:
-
-![when any key pressed, do something with last key pressed](./assets/how-to-use-last-key-pressed.svg)
-
-## mouse button down? {#mouse-button-down}
+Any key pressed on keyboard and pressed this with mouse would show you the key you
+pressed.
+## mouse button down? {#mouse button name}
 
 ![primary mouse button down?](./assets/mouse-button-down.svg)
 
 It's like "mouse down?" but lets you check each individual button. Keep in mind that due to how Scratch interprets mouse input, it's possible for a block like "is primary mouse button down?" to report true while the standard "mouse down?" reports false.
 
- * (0) primary is usually left
- * (1) middle is usually scroll wheel
- * (2) secondary is usually right (running this block once will disable right click on the stage)
+0. Left
+1. Middle as ScrollWheel (on all mouses)
+2. Right (right for menu in browsers like MS Edge)
